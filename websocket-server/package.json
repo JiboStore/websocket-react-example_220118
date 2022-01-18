@@ -5,7 +5,11 @@
   "dependencies": {
     "socket.io": "^2.0.3"
   },
+  "devDependencies": {
+    "ngrok": "^4.2.2"
+  },
   "scripts": {
+    "ngrok": "ngrok http 8000",
     "websockets": "node server.js"
   }
 }
